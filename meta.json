@@ -1,0 +1,50 @@
+{
+  "features": [
+    "band_lat",
+    "ls_sin",
+    "ls_cos",
+    "cur",
+    "global",
+    "south_mean",
+    "north_mean",
+    "lag1",
+    "lag2",
+    "lag3",
+    "lag5",
+    "lag7",
+    "mean7",
+    "max7",
+    "trend3",
+    "growth1",
+    "ratio3",
+    "global_lag3",
+    "global_trend3",
+    "active_days7",
+    "active_days14",
+    "days_since",
+    "nb_south",
+    "nb_south_lag3",
+    "nb_north",
+    "nb_north_lag3"
+  ],
+  "threshold": 0.5636577606201172,
+  "storm_threshold": 0.01,
+  "horizon_sols": 3,
+  "n_bands": 8,
+  "band_lat": [
+    -78.80000305175781,
+    -56.29999923706055,
+    -33.79999923706055,
+    -11.300000190734863,
+    11.199999809265137,
+    33.70000076293945,
+    56.20000076293945,
+    78.75
+  ],
+  "trained_on_MY": [
+    28,
+    29,
+    30,
+    31
+  ]
+}
